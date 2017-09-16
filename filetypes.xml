@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping pattern="zz" type="XML" />
+      <mapping pattern="activity_main" type="XML" />
+      <mapping pattern="news" type="XML" />
+    </extensionMap>
+  </component>
+</application>

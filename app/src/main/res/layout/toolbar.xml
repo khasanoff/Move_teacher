@@ -1,0 +1,15 @@
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:layout_collapseMode="pin"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:title="@string/app_name"
+    app:titleTextColor="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/main_color"
+
+
+    />

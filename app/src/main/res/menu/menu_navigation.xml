@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/your_teacher"
+        android:icon="@drawable/teacher_icon"
+        android:title="Your teacher"
+
+        />
+
+
+    <item
+        android:id="@+id/message_for_us"
+        android:icon="@drawable/information_icon"
+        android:title="Message for us"
+
+        />
+
+
+
+
+    <item
+        android:id="@+id/exit_to_app"
+        android:icon="@drawable/exit_icon"
+        android:title="Exit to app" />
+
+    </group>
+
+
+</menu>

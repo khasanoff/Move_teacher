@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:title="@string/app_name"
+            app:titleTextColor="#ffffff"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@color/main_color"
+
+            app:menu="@menu/toolbar_menu"
+            />
+
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/message_for_us_title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Click here to write title"
+
+            android:textSize="20sp"
+            android:textColorHint="#9b9b9b"
+            android:maxLines="1"
+            android:maxLength="25"
+            android:layout_margin="16dp"
+           android:padding="6dp"
+
+            android:textColor="#737373"
+            android:inputType="textCapSentences"
+
+            />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@color/view_color"
+            />
+
+
+
+        <EditText
+            android:id="@+id/message_for_us_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Click here to write msg"
+
+            android:textSize="14sp"
+            android:textColorHint="#b1b1b1"
+
+            android:layout_margin="16dp"
+            android:padding="6dp"
+
+            android:textColor="#8f8f8f"
+            android:gravity="top"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

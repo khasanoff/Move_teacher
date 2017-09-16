@@ -1,0 +1,179 @@
+<resources>
+
+         <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+                
+        
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.FAB" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#fff</item>
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+
+    <style name="White" parent="AppTheme">
+
+        <item name="colorControlNormal">#ffffff</item>
+    </style>
+
+
+
+    <style name="AppTheme.editText">
+
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#fff</item>
+
+
+
+    </style>
+
+
+    <style name="AppTheme.toolbar" parent="AppTheme">
+
+
+
+        <item name="android:background">#ffffff</item>
+
+
+
+    </style>
+
+
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#f5f5f5</item>
+
+
+    </style>
+
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+
+
+
+
+    <style name="teacher_datas_textView">
+
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#969696</item>
+
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+
+
+    <style name="teacher_datas_consts_textView">
+
+
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#bdbdbd</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_weight">1.25</item>
+
+
+
+    </style>
+
+
+    
+        <style name="view">
+
+
+            <item name="android:layout_height">1dp</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:background">@color/view_color</item>
+            <item name="android:layout_marginLeft">16dp</item>
+            <item name="android:layout_marginTop">16dp</item>
+            <item name="android:layout_marginRight">16dp</item>
+
+
+
+
+        </style>
+
+
+    <style name="EditText">
+
+
+
+        <!--https://www.androidhive.info/2015/09/android-material-design-floating-labels-for-edittext/-->
+        <!--https://github.com/rengwuxian/MaterialEditText-->
+        <!--https://github.com/StevenByle/Android-Material-Themes-Demo-->
+
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:maxLines">1</item>>
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:inputType">textCapSentences</item>
+
+
+        <item name="met_maxCharacters">20</item>
+
+
+        <item name="met_floatingLabel">highlight</item>
+        <item name="met_primaryColor">@color/main_color</item>
+        <item name="met_textColorHint">#bababa</item>
+        <item name="met_underlineColor">@color/view_color</item>
+        <item name="met_textColor">#737373</item>
+
+
+
+    </style>
+
+    <style name="RadioButton">
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#bababa</item>
+        <item name="android:layout_marginTop">16dp</item>
+
+
+
+    </style>
+
+    <style name="margin_top_left_right">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+
+
+    </style>
+
+
+
+</resources>
+

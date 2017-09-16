@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        >
+
+
+
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:collapsedTitleTextAppearance="@style/CollapsedAppBar"
+            app:expandedTitleTextAppearance="@style/ExpandedAppBar"
+
+            >
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@mipmap/mariarti"
+                app:layout_collapseMode="parallax"
+                android:fitsSystemWindows="true"
+
+                android:scaleType="centerCrop"
+                />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:title="@string/app_name"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+                />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/toOrder_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/appbarlayout"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_margin="16dp"
+
+
+
+        app:fab_size="normal"
+        android:src="@mipmap/order"
+
+        />
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/person_img_const"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/person_icon"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:padding="6dp"
+
+                />
+
+
+        <LinearLayout
+            android:id="@+id/person_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            android:layout_toEndOf="@+id/person_img_const"
+
+            android:layout_toRightOf="@+id/person_img_const"
+
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="First Name :"
+
+                style="@style/teacher_datas_consts_textView"
+
+                />
+
+
+                    <TextView
+                    android:id="@+id/first_name_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="James"
+
+                    style="@style/teacher_datas_textView"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Last Name :"
+
+                    style="@style/teacher_datas_consts_textView"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/last_name_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="James"
+
+                    style="@style/teacher_datas_textView"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Father's Name :"
+
+                    style="@style/teacher_datas_consts_textView"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/fathers_name_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Howard"
+
+                    style="@style/teacher_datas_textView"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+            <View
+                android:id="@+id/view1"
+                style="@style/view"
+
+
+                android:layout_below="@+id/person_layout"
+                android:layout_toEndOf="@id/person_img_const"
+
+                android:layout_toRightOf="@id/person_img_const" />
+
+
+
+
+            <ImageView
+                android:id="@+id/age_img_const"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/age_icon"
+
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@+id/view1"
+                android:padding="6dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/age_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/view1"
+
+
+                android:layout_toRightOf="@+id/age_img_const"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Age :"
+
+                    style="@style/teacher_datas_consts_textView"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/age_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="25"
+
+                    style="@style/teacher_datas_textView"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <View
+                android:id="@+id/view2"
+                style="@style/view"
+
+                android:layout_below="@+id/age_layout"
+
+
+
+                android:layout_toEndOf="@id/age_img_const"
+
+                android:layout_toRightOf="@id/age_img_const"
+
+                />
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/ball_img_const"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ball_icon"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+
+                android:layout_below="@+id/view2"
+                android:padding="6dp"
+
+
+
+                />
+
+            <LinearLayout
+                android:id="@+id/ball_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/view2"
+
+
+                android:layout_toEndOf="@+id/age_img_const"
+
+                android:layout_toRightOf="@+id/age_img_const"
+                >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Ielts Ball :"
+
+                    style="@style/teacher_datas_consts_textView"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/ielts_ball_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="8"
+
+                    style="@style/teacher_datas_textView"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Toefl ball :"
+
+                    style="@style/teacher_datas_consts_textView"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/toefl_ball_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="None"
+
+                    style="@style/teacher_datas_textView"
+
+                    />
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:id="@+id/view3"
+                style="@style/view"
+
+                android:layout_below="@+id/ball_layout"
+
+
+                android:layout_toEndOf="@id/ball_img_const"
+
+                android:layout_toRightOf="@id/ball_img_const"
+
+
+                />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

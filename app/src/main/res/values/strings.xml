@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Move teacher</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="information" >
+
+
+Description
+SMS Template can be used by Android Developers for providing the design and good implementation on SMS app for creating own SMS app or to the employers.
+
+Template will provide you the design and screens flow ready for Android app only need to get SMS and SMS related contents from web server, cloud or from any database.
+
+Developer only need to get the related contents from database to show the list of sms. One will need website for SMS contents and it’s users and then this app can be useful to create app for Android.
+
+Right now the template will provide all the hardcoded sms and contents from content manager class that have written in code.
+
+Admob banner ads added in most of the screen only you need to put Admob id to see ads on your SMS app once ready with actual contents.
+
+Easy to change the colors/graphics, by simple replacing the color code and images, app logo and name of app.
+Template Slider with useful options:
+
+    Check for updates
+    More from developer
+    Rate Us
+    About
+
+    Important Note : SMS Template needs live/actual sms contents and this can be done by Android developer, this item is not for ready to launch/use live.
+
+Updates: 1. Initial Version 2. Updated AdMob ads integration to using Latest AdMob 3. Updated libraries usage with latest versions and added android studio project
+
+    </string>
+
+
+</resources>

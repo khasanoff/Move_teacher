@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#D24b69</color>
+    <color name="colorPrimaryDark">#b43a55</color>
+    <color name="colorAccent">#D24b69</color>
+
+
+    <color name="main_color">#D24b69</color>
+    <color name="title_color">#757575</color>
+    <color name="view_color">#ededed</color>
+
+
+
+    <color name="turquoise">#1abc9c</color>
+    <color name="greenSea">#16a085</color>
+    <color name="emerald">#2ecc71</color>
+    <color name="nephrits">#27ae60</color>
+    <color name="peterRiver">#3498db</color>
+    <color name="belizeHole">#2980b9</color>
+    <color name="ametHist">#9b59b6</color>
+    <color name="wisteria">#8e44ad</color>
+    <color name="wetAsplalt">#34495e</color>
+    <color name="midnightBlue">#2c3e50</color>
+    <color name="sunFlower">#f1c40f</color>
+    <color name="orange">#f39c12</color>
+    <color name="carrot">#e67e22</color>
+    <color name="pumpkin">#d35400</color>
+    <color name="alizarin">#e74c3c</color>
+    <color name="pomegranate">#c0392b</color>
+    <color name="clouds">#ecf0f1</color>
+    <color name="silver">#bdc3c7</color>
+    <color name="asbestos">#7f8c8d</color>
+
+
+
+    <color name="should_pay">#dcdcdc</color>
+
+
+
+</resources>
+
+
+

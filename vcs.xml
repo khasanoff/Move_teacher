@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/khasanoff/Move_teacher.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:khasanoff/Move_teacher.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Iroda\Desktop\keremas\Projects" />
